@@ -1,13 +1,10 @@
 import React from 'react';
 import img from '../../assets/contact.6dcc16dbbb8757292805.png'
-import { Helmet } from 'react-helmet-async';
 
 const Conatct = () => {
     return (
-        <div className='space-y-5  bg-pink-100 p-8'>
-            <Helmet>
-                <title> Portfolio | Contact Me</title>
-            </Helmet>
+        <div id='contact' className='space-y-5  bg-pink-100 p-8'>
+
             <h2 className='text-center text-4xl font-bold text-slate-800'>Contact Me</h2>
 
             <p className='text-center text-xl font-semibold text-slate-800'>Drop a line. I am ready to help you!</p>

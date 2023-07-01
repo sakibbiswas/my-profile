@@ -13,10 +13,10 @@ const Banner = () => {
                     <h2 className='text-xl'> <span className='text-red-600 '>----</span> Hello</h2>
                     <TypeAnimation
                         sequence={[
+                            'I ',
+                            1000,
                             'I am',
                             500,
-                            'I am',
-                            1000,
                             'Sazzadur',
                             500,
                             'Sazzadur Rahman',
@@ -31,7 +31,7 @@ const Banner = () => {
                             500,
                         ]}
                         speed={40}
-                        style={{ fontSize: '3em', fontFamily: 'bold', }}
+                        style={{ fontSize: '3em', fontFamily: 'bold' }}
                         repeat={Infinity}
                     >
                         <h1 className='text-4xl font-bold'>I am Sazzadur<span className='text-red-500 '> Rahman</span>  Sakib</h1>

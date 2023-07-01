@@ -11,13 +11,10 @@ import logo from '../../assets/quote.07b3f84a27ac64614e06.png'
 import man1 from '../../assets/young-bearded-man-with-striped-shirt_273609-5677.avif'
 import man2 from '../../assets/images.jfif'
 import man3 from '../../assets/images (1).jfif'
-import { Helmet } from "react-helmet-async";
 const Testimonial = () => {
     return (
-        <div className="bg-pink-100 p-8 space-y-4">
-            <Helmet>
-                <title> Portfolio | Testimonial</title>
-            </Helmet>
+        <div id="testimonial" className="bg-pink-100 p-8 space-y-4">
+
             <h1 className='text-center text-4xl font-bold text-gray-800'>Testimonial</h1>
             <p className='text-center text-xl text-slate-800'>Know about myself from here from my previous clients</p>
             <div className="">

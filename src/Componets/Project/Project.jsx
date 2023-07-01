@@ -1,8 +1,16 @@
 import React from 'react';
-import img1 from '../../assets/p2.png'
-import img2 from '../../assets/Screenshot_11.png'
-import img3 from '../../assets/P10.png'
-
+import img1 from '../../assets/scroll-2.png'
+import img2 from '../../assets/scoll-1.png'
+import img3 from '../../assets/Screenshot_15.png'
+import img4 from '../../assets/Screenshot_25.png'
+import img5 from '../../assets/Screenshot_26.png'
+import img6 from '../../assets/Screenshot_27.png'
+import img7 from '../../assets/Screenshot_21.png'
+import img8 from '../../assets/Screenshot_22.png'
+import img9 from '../../assets/Screenshot_23.png'
+import img10 from '../../assets/Screenshot_24.png'
+import img11 from '../../assets/Screenshot_28.png'
+import ReactShadowScroll from 'react-shadow-scroll';
 
 const Project = () => {
     return (
@@ -11,7 +19,17 @@ const Project = () => {
             <p className='text-xl  text-center text-slate-800'>I have my recent project with React also by using other technologies. You can check by clicking live preview.</p>
             <div className="md:flex justify-center items-center gap-10 ">
                 <div className="card h-[530px] card-compact w-96 bg-base-100 shadow-xl">
-                    <figure><img className='w-[400px] h-[250px]' src={img1} /></figure>
+
+                    <ReactShadowScroll>
+
+                        <img className='w-[400px] h-[250px]' src={img2} />
+                        <img className='w-[400px] h-[250px]' src={img1} />
+                        <img className='w-[400px] h-[250px]' src={img3} />
+
+                    </ReactShadowScroll>
+
+
+
                     <div className=" card-body">
                         <h2 className="card-title">Food Hunter</h2>
                         <p >It is a single page application.There you will find chefs and their famous recipe worldwide.
@@ -36,7 +54,14 @@ const Project = () => {
                 </div>
 
                 <div className="card h-[530px] card-compact w-96 bg-base-100 shadow-xl">
-                    <figure><img className='w-[400px] h-[250px]' src={img2} /></figure>
+                    <ReactShadowScroll>
+
+                        <img className='w-[400px] h-[250px]' src={img4} />
+                        <img className='w-[400px] h-[250px]' src={img5} />
+                        <img className='w-[400px] h-[250px]' src={img6} />
+                        <img className='w-[400px] h-[250px]' src={img11} />
+
+                    </ReactShadowScroll>
                     <div className="card-body">
                         <h2 className="card-title">Toy Shop</h2>
                         <p >It is a MERN based E-commerce website.That provides some e-commerce services.
@@ -64,7 +89,14 @@ const Project = () => {
                 </div>
 
                 <div className="card h-[530px] card-compact w-96 bg-base-100 shadow-xl">
-                    <figure><img className='w-[400px] h-[250px]' src={img3} /></figure>
+                    <ReactShadowScroll>
+
+                        <img className='w-[400px] h-[250px]' src={img7} />
+                        <img className='w-[400px] h-[250px]' src={img8} />
+                        <img className='w-[400px] h-[250px]' src={img9} />
+                        <img className='w-[400px] h-[250px]' src={img10} />
+
+                    </ReactShadowScroll>
                     <div className="card-body">
                         <h2 className="card-title">Mozart Academy</h2>
                         <p >User can enroll courses and pay for each course

@@ -1,15 +1,13 @@
-import React from 'react';
+
 import picture from '../../assets/pic2.jpg'
 import resume from '../../assets/Sazzadur Rahman Resume.pdf'
-import { Helmet } from 'react-helmet-async';
 import { FaDownload } from 'react-icons/fa';
+
 const About = () => {
     return (
 
-        <div className=' bg-pink-100 p-8'>
-            <Helmet>
-                <title> Portfolio | About me</title>
-            </Helmet>
+        <div id='about' className='bg-pink-100  p-8 '>
+
             <div className="md:grid grid-cols-2 justify-center items-center ">
                 <img className='w-[500px] h-[500px] rounded-full' src={picture} data-aos="zoom-in-down" data-aos-easing="ease-out-cubic"
                     data-aos-duration="2000" />

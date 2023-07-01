@@ -1,15 +1,12 @@
 import React from 'react';
-import { Helmet } from 'react-helmet-async';
 import logo1 from '../../assets/a1.png'
 import logo2 from '../../assets/a2.png'
 import logo3 from '../../assets/a3.png'
 import { motion } from "framer-motion"
 const Expertise = () => {
     return (
-        <div className='bg-pink-100 pt-5'>
-            <Helmet>
-                <title> Portfolio | Expertise</title>
-            </Helmet>
+        <div id='expertise' className='bg-pink-100 pt-5'>
+
             <div className="">
                 <h2 className='mb-3  text-center text-4xl font-bold text-slate-800'>Expertise Area</h2>
                 <p className='text-xl text-center mb-8 text-slate-800'>Some of my expertise area in bellow.</p>
